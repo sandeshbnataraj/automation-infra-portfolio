@@ -2,6 +2,11 @@
 
 ### *Exploring how complex engineering challenges can be solved at scale.*
 
+### **Credentials & Focus**
+
+* ✅ **CKA — Certified Kubernetes Administrator**
+* 📖 **AWS Solutions Architect Professional — In Progress**
+* 
 ---
 
 # **Executive Summary**
@@ -160,3 +165,4 @@ This portfolio reflects the ability to design and operate **secure, scalable del
 👤 **Sandesh Nataraj**
 
 📧 [sandeshb.nataraj@gmail.com](mailto:sandeshb.nataraj@gmail.com)
+
