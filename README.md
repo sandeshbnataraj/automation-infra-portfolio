@@ -4,9 +4,13 @@
 
 ---
 
-## **Executive Summary**
+# **Executive Summary**
 
-I specialize in building **secure, scalable, and automated delivery systems** that take software from commit to production with **speed, safety, and confidence**. My work spans from **enterprise-grade CI/CD pipelines with Docker, GitLab, and Swarm/Traefik** to **custom Python automation tools** that eliminate repetitive tasks. This portfolio demonstrates my ability to design and operate systems that are **consistent, auditable, and production-ready** — the kind of infrastructure that powers high-performing engineering teams.
+I design and operate **secure, scalable, and automated platforms** that take ideas from commit to production with **speed, reliability, and confidence**. My expertise spans **cloud infrastructure, container orchestration, and infrastructure as code** — always focused on building systems that are **production-ready, auditable, and resilient at scale**.
+
+This portfolio is a **living showcase** of that mindset: continuously evolving and expanding. Alongside my proven infrastructure and DevOps projects, I’m now **pivoting into ML/AI infrastructure and platform engineering**, building the foundations that power the next generation of intelligent systems.
+
+If you’re looking for someone who can **architect, automate, and optimize modern infrastructure end-to-end — and grow into AI-driven platforms — you’ve found them.**
 
 ---
 
@@ -154,4 +158,5 @@ This portfolio reflects the ability to design and operate **secure, scalable del
 ## **Maintainer**
 
 👤 **Sandesh Nataraj**
+
 📧 [sandeshb.nataraj@gmail.com](mailto:sandeshb.nataraj@gmail.com)
