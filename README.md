@@ -2,18 +2,12 @@
 
 ### *Exploring how complex engineering challenges can be solved at scale.*
 
-### **Credentials & Focus**
-
-* ✅ **CKA — Certified Kubernetes Administrator**
-* 📖 **AWS Solutions Architect Professional — In Progress**
-* 
 ---
+## **Executive Summary**
 
-# **Executive Summary**
+I design and operate **secure, scalable, and automated platforms** that take ideas from commit to production with **speed, reliability, and confidence**. Backed by my **Certified Kubernetes Administrator (CKA)** credential, I bring hands-on expertise in **cloud infrastructure, container orchestration, and infrastructure as code** — always focused on building systems that are **production-ready, auditable, and resilient at scale**.
 
-I design and operate **secure, scalable, and automated platforms** that take ideas from commit to production with **speed, reliability, and confidence**. My expertise spans **cloud infrastructure, container orchestration, and infrastructure as code** — always focused on building systems that are **production-ready, auditable, and resilient at scale**.
-
-This portfolio is a **living showcase** of that mindset: continuously evolving and expanding. Alongside my proven infrastructure and DevOps projects, I’m now **pivoting into ML/AI infrastructure and platform engineering**, building the foundations that power the next generation of intelligent systems.
+This portfolio is a **living showcase** of that mindset: continuously evolving and expanding. Alongside proven infrastructure work, I’m now **pivoting into ML/AI infrastructure and platform engineering**, building the foundations that power the next generation of intelligent systems.
 
 If you’re looking for someone who can **architect, automate, and optimize modern infrastructure end-to-end — and grow into AI-driven platforms — you’ve found them.**
 
@@ -165,4 +159,5 @@ This portfolio reflects the ability to design and operate **secure, scalable del
 👤 **Sandesh Nataraj**
 
 📧 [sandeshb.nataraj@gmail.com](mailto:sandeshb.nataraj@gmail.com)
+
 
