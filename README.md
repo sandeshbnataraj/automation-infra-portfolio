@@ -2,6 +2,14 @@
 
 ### *Exploring how complex engineering challenges can be solved at scale.*
 
+---
+
+## **Executive Summary**
+
+I specialize in building **secure, scalable, and automated delivery systems** that take software from commit to production with **speed, safety, and confidence**. My work spans from **enterprise-grade CI/CD pipelines with Docker, GitLab, and Swarm/Traefik** to **custom Python automation tools** that eliminate repetitive tasks. This portfolio demonstrates my ability to design and operate systems that are **consistent, auditable, and production-ready** — the kind of infrastructure that powers high-performing engineering teams.
+
+---
+
 ## **What This Portfolio Represents**
 
 This portfolio is a window into the kind of engineering I value most: **building systems that make software delivery faster, safer, and more reliable**.
@@ -10,13 +18,89 @@ It isn’t just a set of scripts or repositories — it’s a collection of idea
 
 More than a set of tools, this portfolio reflects a way of thinking: **designing systems that are consistent, trustworthy, and built to last**.
 
-What follows is a collection of projects that illustrate that mindset in action. You’re welcome to explore and see how each piece connects to the bigger picture.
+---
+
+## **1. CI/CD & Containerization Projects**
+
+End-to-end delivery pipelines and containerization patterns showcasing reproducibility, security, and scale.
 
 ---
 
-## **1. Python DevOps Tools**
+### 🔹 [Microservices DevOps Playground](https://github.com/sandeshbnataraj/microservices-devops-playground)
+
+*Monorepo CI/CD, polyglot Dockerfiles, and Docker Swarm stack with Traefik*
+
+* Root `.gitlab-ci.yml` orchestrates **per-service builds** (Node, Python, Go, .NET).
+* Uses **Buildx** for SHA-tagged, reproducible builds — with **multi-arch** support (amd64 + arm64).
+* Each service has a **production-minded Dockerfile** aligned with its language ecosystem.
+* Includes **Swarm stack** (`compose.yml`) and **Traefik reverse proxy** (`traefik.yml`) with health checks, VIP networking, and rolling/rollback configs.
+
+```text
+[ GitLab CI ]
+   └─ buildx jobs per service (Node, Python, Go, .NET)
+        └─ tag with SHA + push to registry
+             └─ Swarm stack deploy (compose.yml + traefik.yml)
+                  └─ Traefik routes + health checks + rolling updates
+```
+
+---
+
+### 🔹 [PipelineOps](https://github.com/sandeshbnataraj/pipelineops)
+
+*Reusable GitLab CI/CD components for container builds*
+
+* Parameterized **Buildx** component template for standardized builds.
+* Inputs: Dockerfile path, context, image name/tag, build target, driver.
+* Centralized updates improve every pipeline that consumes it.
+
+```text
+Consumer project ── include: pipelineops/template.yml
+                     │
+                     ▼
+                .buildx-build job
+                     │
+                     ▼
+           docker buildx build --push
+                     │
+                     ▼
+           GitLab Container Registry
+```
+
+---
+
+### 🔹 [NodeJS DevOps Lab](https://github.com/sandeshbnataraj/nodejs-devops-lab)
+
+*Forked Node.js app with CI/CD pipeline and Dockerfile contributions*
+
+* GitLab pipeline builds, scans, and pushes container images.
+* Dockerfile optimized with cache-friendly layering and slim runtime.
+* Added **security scanning** (SAST + container scanning) on the happy path.
+
+```text
+lint/tests ──► docker build ──► scan ──► push image
+```
+
+---
+
+### 🔹 [Flask DevOps Lab](https://github.com/sandeshbnataraj/flask-devops-lab)
+
+*Forked Flask app with CI/CD pipeline and Dockerfile contributions*
+
+* GitLab pipeline builds and pushes images to GitLab registry.
+* Modular job definitions inside `.gitlab-ci/` for maintainability.
+* Dockerfile designed for deterministic installs, slim base, and Gunicorn entrypoint.
+
+```text
+build ──► docker build ──► push to registry
+```
+
+---
+
+## **2. Python DevOps Tools**
 
 Automation utilities built in Python for pipelines, artifacts, and database releases.
+
+---
 
 ### 🔹 [GitLab Pilot](https://github.com/sandeshbnataraj/gitlab_pilot)
 
@@ -59,11 +143,11 @@ This portfolio demonstrates the core principles of building those systems:
 
 * **Consistency** → pipelines, artifacts, and database changes follow predictable patterns.
 * **Traceability** → every build and release is versioned and auditable.
-* **Scalability** → workflows can expand across teams and environments without fragility.
-* **Reliability** → automation reduces human error, accelerates delivery, and increases confidence.
-* **Security** → guardrails, access controls, and safe defaults ensure automation protects as much as it enables.
+* **Scalability** → workflows expand across teams and environments without fragility.
+* **Reliability** → automation reduces human error and increases confidence.
+* **Security** → guardrails and safe defaults ensure automation protects as much as it enables.
 
-This portfolio reflects the ability to design and operate **secure, scalable delivery systems** — the kind that underpin DevOps, SRE, Cloud, and Infrastructure roles where engineering impact directly drives business outcomes.
+This portfolio reflects the ability to design and operate **secure, scalable delivery systems** — the kind that underpin DevOps, Cloud, and Infrastructure roles where engineering impact directly drives business outcomes.
 
 ---
 
@@ -71,4 +155,3 @@ This portfolio reflects the ability to design and operate **secure, scalable del
 
 👤 **Sandesh Nataraj**
 📧 [sandeshb.nataraj@gmail.com](mailto:sandeshb.nataraj@gmail.com)
-
