@@ -1,4 +1,4 @@
-# **DevOps Automation Portfolio 🚀**
+# **Automation & Infrastructure Portfolio 🚀**
 
 ### *Exploring how complex engineering challenges can be solved at scale.*
 
